@@ -1,0 +1,14 @@
+// Write your JS code here
+const Contact = () => (
+  <div className="route-container">
+    <div className="image-box">
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/contact-blog-img.png"
+        alt="contact"
+        className="image-styling"
+      />
+    </div>
+    <h1 className="bottom-heading">Contact</h1>
+  </div>
+)
+export default Contact

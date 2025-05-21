@@ -1,0 +1,29 @@
+// Write your JS code here
+import './index.css'
+import {Link} from 'react-router-dom'
+
+const Header = () => (
+  <ul className="unordered-list">
+    <li className="wave-icon-container">
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/wave-logo-img.png "
+        alt="wave"
+        className="wave-logo"
+      />
+      <h1>Wave</h1>
+    </li>
+    <li className="route-options-container">
+      <Link to="/" className="route-text">
+        Home
+      </Link>
+      <Link to="/about" className="route-text">
+        About
+      </Link>
+      <Link to="/contact" className="route-text">
+        Contact
+      </Link>
+    </li>
+  </ul>
+)
+
+export default Header

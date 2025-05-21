@@ -1,0 +1,16 @@
+// Write your JS code here
+import './index.css'
+
+const NotFound = () => (
+  <div className="route-container">
+    <div className="image-box">
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/home-blog-img.png"
+        alt="home"
+        className="image-styling-notfound"
+      />
+    </div>
+    <h1 className="bottom-heading">Not Found</h1>
+  </div>
+)
+export default NotFound

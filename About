@@ -1,0 +1,19 @@
+// Write your JS code here
+import './index.css'
+
+const About = () => (
+  <div className="route-container">
+    <div className="image-box">
+      <img
+        src="https://assets.ccbp.in/frontend/react-js/about-blog-img.png"
+        alt="about"
+        className="image-styling"
+      />
+    </div>
+    <h1 className="bottom-heading">About</h1>
+    <p className="bottom-desc">
+      I love to create! i am a frontend web developer
+    </p>
+  </div>
+)
+export default About
